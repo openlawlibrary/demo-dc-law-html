@@ -1,7 +1,10 @@
 # Demo for Reader Lite for DC
 This is complied demo for DC. 
 
-Please note that these resources are not automatically clean up from unnecessary files, like we do for actual deployment. 
+Please note that these resources are not automatically cleaned up from unnecessary files, like we do for actual deployment. 
+
+To start the basic server, run `py server.py` from root folder.
+
 
 ## Manual generation
 To create everything manually from scratch, perform the following steps:
