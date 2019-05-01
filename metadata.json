@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "build": {
+      "date": "2019-05-01 10:04:15",
+      "platform": {
+        "reproducible": "false",
+        "version": "****.*.*"
+      },
+      "repositories": {
+        "repository": {
+          "commit": "9752e1fc775cb6130b37bde4a445ed506b38a4d9",
+          "name": "dc-law-xml"
+        }
+      },
+      "through-date": "2019-04-05"
+    },
+    "canonical-urls": {
+      "html": "https://code.dccouncil.us",
+      "html-bulk": "https://github.com/dccouncil/dc-law-html",
+      "xml-bulk": "https://github.com/dccouncil/dc-law-xml"
+    },
+    "contact": {
+      "email": "code@dccouncil.us"
+    },
+    "description": "Browse the laws and code of the District of Columbia"
+  }
+}
