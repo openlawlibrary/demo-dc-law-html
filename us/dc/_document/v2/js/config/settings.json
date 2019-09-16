@@ -1,0 +1,69 @@
+{
+  "version": "v2",
+  "generator": { "name": "Open Law Library", "version": "2019.4.1" },
+  "general": {
+    "libraryName": "Council of the District of Columbia",
+    "libraryLogo": { "image": "/images/logo/dccouncil_typemark.svg" },
+    "language": "en-US",
+    "siteUrl": "http://code.dccouncil.us",
+    "favicon": "/images/favicons/favicon.ico",
+    "docRoot": "/us/dc",
+    "entityId": "us/dc/council"
+  },
+  "style": { "namespaceSuffix": "us-dc" },
+  "logo": {
+    "name": "Council of the District of Columbia",
+    "header": {
+      "image": "/images/logo/dc-seal-outline.png",
+      "srcset": [
+        "/images/logo/dc-seal-outline.png 1x",
+        "/images/logo/dc-seal-outline@2x.png 2x"
+      ]
+    },
+    "footer": {
+      "image": "/images/logo/dc-seal.png",
+      "srcset": [ "/images/logo/dc-seal.png 1x", "/images/logo/dc-seal@2x.png 2x" ]
+    }
+  },
+  "feature": { "reader": false, "openGraph": true, "pwa": true },
+  "fonts": [
+    "/biticons/biticons.css",
+    "/fonts/droid-serif/droid-serif.css",
+    "/fonts/open-sans/open-sans.css"
+  ],
+  "pwa": {
+    "name": "District of Columbia Law Library",
+    "short_name": "D.C. Law Library",
+    "description": "The Open Law Platform reduces law drafting errors, auto-updates the legal code as laws become effective, and creates the foundation for innovating on the law.",
+    "theme_color": "#0078EF",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "start_url": "/",
+    "scope": "/",
+    "orientation": "portrait-primary",
+    "dir": "ltr",
+    "lang": "en-US"
+  },
+  "contact": { "email": "code@dccouncil.us" },
+  "msapp": { "tileColor": "#FFFFFF" },
+  "openGraph": {
+    "siteUrl": "https://github.com/openlawlibrary",
+    "libraryName": "Open Law Library",
+    "defaultDescription": "Change to description with up to 300 characters",
+    "defaultImage": "/images/og/og_image.png"
+  },
+  "analytics": {
+    "trackingPixel": "//analytics.code.dccouncil.us/piwik.php",
+    "trackingSite": "1"
+  },
+  "search": {
+    "searchHost": "https://search.code.dccouncil.us",
+    "queryUrl": "/v1/search",
+    "method": "POST"
+  },
+  "canonicalUrls": {
+    "xmlBulk": "https://github.com/dccouncil/dc-law-xml",
+    "htmlBulk": "https://github.com/dccouncil/dc-law-html",
+    "html": "https://code.dccouncil.us"
+  }
+}

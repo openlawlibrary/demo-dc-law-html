@@ -1,18 +1,18 @@
 {
   "meta": {
     "build": {
-      "date": "2019-06-18 13:37:24",
+      "build-date": "2019-09-16",
+      "codified-date": "2019-05-23",
       "platform": {
         "reproducible": "false",
         "version": "****.*.*"
       },
       "repositories": {
         "repository": {
-          "commit": "3e069fae250585653ab48e3158bd39d03e252067",
+          "commit": "bac291d16f85ab91f506c81b595cd0207a6a662d",
           "name": "dc-law-xml"
         }
-      },
-      "through-date": "2019-04-11"
+      }
     },
     "canonical-urls": {
       "html": "https://code.dccouncil.us",
